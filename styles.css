@@ -65,6 +65,7 @@ article {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
+    align-content: center;
 }
 
 .card {
@@ -74,4 +75,12 @@ article {
 
 .news {
     border: var(--border);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(4, 1fr);
 }
