@@ -4,10 +4,12 @@
   /* Colors */
   --color-bg: #070f2b;
   --secondary-color: #1b1a55;
-  --third-color: #535C91;
+  --third-color: #535c91;
   --color-text: white;
   --color-undertext: rgb(197, 197, 197);
   --color-btn: #9290c3;
+
+  --border: solid 1px white;
 
   /* Font */
   font-family: "Roboto", sans-serif, system-ui, -apple-system,
@@ -18,4 +20,20 @@
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
+  margin: 0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  border: var(--border);
+}
+
+.content {
+  border: var(--border);
+  display: grid;
+  grid-template-rows: 1fr 6fr;
 }
