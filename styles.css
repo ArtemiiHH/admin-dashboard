@@ -51,17 +51,27 @@ body {
 
 article {
     border: var(--border);
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; */
+}
+
+.content-container {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
 }
 
 .card {
     border: var(--border);
     height: 200px;
+}
+
+.news {
+    border: var(--border);
 }
