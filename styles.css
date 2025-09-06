@@ -36,9 +36,15 @@ body {
 }
 
 .content {
-  border: var(--border);
+  /* border: var(--border); */
   display: grid;
   grid-template-rows: auto auto;
+}
+
+article h3 {
+    background-color: var(--third-color);
+    margin: 0;
+    padding: 40px 40px 0 40px;
 }
 
 /* Header */
