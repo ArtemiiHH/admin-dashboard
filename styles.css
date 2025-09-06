@@ -37,7 +37,7 @@ body {
 .content {
   border: var(--border);
   display: grid;
-  grid-template-rows: 1fr 8fr;
+  grid-template-rows: auto auto;
 }
 
 /* Header */
@@ -66,7 +66,7 @@ article {
 /* Cards */
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
     align-content: center;
@@ -82,4 +82,18 @@ article {
     border: var(--border);
     display: grid;
     grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.announcements {
+    border: var(--border);
+}
+
+.user {
+    border: var(--border);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
 }
