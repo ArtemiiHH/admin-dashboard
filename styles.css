@@ -81,16 +81,21 @@ article {
 
 /* Announcements (News + Trending) */
 .news {
-    /* border: var(--border); */
     display: grid;
     grid-template-rows: auto auto;
     gap: 20px;
     padding: 20px;
-    align-items: start;
+    align-items: stretch;
 }
 
 .announcements {
     border: var(--border);
+    height: 100%;
+}
+
+.trending {
+    display: grid;
+    align-items: end;
 }
 
 .user {
