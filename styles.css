@@ -23,11 +23,13 @@ body {
   margin: 0;
 }
 
+/* Container */
 #container {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
 
+/* Sidebar */
 .sidebar {
   border: var(--border);
 }
@@ -38,6 +40,7 @@ body {
   grid-template-rows: 1fr 8fr;
 }
 
+/* Header */
 .header div {
     border: var(--border);
 }
@@ -60,6 +63,7 @@ article {
     grid-template-columns: 2fr 1fr;
 }
 
+/* Cards */
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,14 +77,9 @@ article {
     height: 200px;
 }
 
+/* Announcements (News + Trending) */
 .news {
     border: var(--border);
     display: grid;
     grid-template-rows: 1fr 1fr;
-}
-
-.trending {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: repeat(4, 1fr);
 }
