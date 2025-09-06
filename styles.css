@@ -60,7 +60,9 @@ article {
 
 .content-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    gap: 20px;
 }
 
 /* Cards */
@@ -69,21 +71,22 @@ article {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-    align-content: center;
+    align-content: start;
 }
 
 .card {
     border: var(--border);
-    height: 200px;
+    height: 250px;
 }
 
 /* Announcements (News + Trending) */
 .news {
-    border: var(--border);
+    /* border: var(--border); */
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     gap: 20px;
     padding: 20px;
+    align-items: start;
 }
 
 .announcements {
