@@ -52,6 +52,13 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 
+.search-bar,
+.account,
+.account-info,
+.buttons {
+    height: auto;
+}
+
 article {
     border: var(--border);
     /* display: grid;
@@ -90,7 +97,7 @@ article {
 
 .announcements {
     border: var(--border);
-    height: 100%;
+    padding: 20px;
 }
 
 .trending {
