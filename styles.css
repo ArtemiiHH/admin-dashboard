@@ -32,7 +32,7 @@ body {
 /* Sidebar */
 .sidebar {
   /* border: var(--border); */
-  background-color: var(--color-bg);
+  background-color: var(--secondary-color);
 }
 
 .content {
@@ -42,7 +42,7 @@ body {
 }
 
 article h3 {
-    background-color: var(--third-color);
+    background-color: var(--color-bg);
     margin: 0;
     padding: 40px 40px 0 40px;
 }
@@ -72,7 +72,7 @@ article h3 {
     grid-template-columns: 3fr 1fr;
     padding: 20px;
     gap: 20px;
-    background-color: var(--third-color);
+    background-color: var(--color-bg);
 }
 
 /* Cards */
@@ -85,8 +85,11 @@ article h3 {
 }
 
 .card {
-    border: var(--border);
+    /* border: var(--border); */
     height: 250px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 /* Announcements (News + Trending) */
@@ -99,8 +102,10 @@ article h3 {
 }
 
 .announcements {
-    border: var(--border);
+    /* border: var(--border); */
     padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
 }
 
 .trending {
@@ -109,9 +114,11 @@ article h3 {
 }
 
 .user {
-    border: var(--border);
+    /* border: var(--border); */
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
 }
