@@ -94,6 +94,13 @@ article h3 {
 .account-info,
 .buttons {
   height: auto;
+  align-self: center;
+}
+
+.buttons button {
+    padding: 16px 32px;
+    border-radius: 20px;
+    border: none;
 }
 
 .content-container {
