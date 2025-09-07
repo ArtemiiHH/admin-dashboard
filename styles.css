@@ -2,9 +2,8 @@
 
 :root {
   /* Colors */
-  --color-bg: #070f2b;
-  --secondary-color: #1b1a55;
-  --third-color: #535c91;
+  --color-bg: #070F2B;
+  --secondary-color: #0f1b44;
   --color-text: white;
   --color-undertext: rgb(197, 197, 197);
   --color-btn: #9290c3;
@@ -32,7 +31,7 @@ body {
 /* Sidebar */
 .sidebar {
   /* border: var(--border); */
-  background-color: var(--secondary-color);
+  background-color: var(--color-bg);
 }
 
 .logo {
